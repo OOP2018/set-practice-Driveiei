@@ -11,7 +11,7 @@ public class SetPractice {
 	 * @parameter set is the Set to add items to
 	 * @parameter values zero or more Strings to add to set
 	 */
-	public static void addAll(Set<String> set, String ...values) {
+	public static void addAll(Collection<String> set, String ...values) {
 		// add all the values to the set. 
 		// print each one as you add it
 		for(String animal : values) {
@@ -23,7 +23,7 @@ public class SetPractice {
 	/**
 	 * Print all the elements in a set, using an Iterator.
 	 */
-	public static void print(Set<String> set) {
+	public static void print(Collection<String> set) {
 		// create an Iterator using set.iterator()
 		// then use the iterator to print everything in the set
 		Iterator<String> iter = set.iterator();

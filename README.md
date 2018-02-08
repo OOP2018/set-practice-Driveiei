@@ -31,4 +31,4 @@ Ans. No, I cannot add duplicate cat and dog to the set beacuse it's a repeat add
 Ans. This TreeSet sort the elements by alphabets from 'a' to 'z'.
 
 * Could we make `setExplorer` work with either Set or List?  How?
-Ans. Yes,
+Ans. Yes, Done similar with coinpurse in Valuable class by changing the parameter from 'Set' to 'Collection' because Collection is a parent of Set,List, and some other collections so, 'setExplorer' now works with Set and List.
